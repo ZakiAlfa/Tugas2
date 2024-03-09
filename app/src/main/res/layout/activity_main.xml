@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16sp"
+    android:orientation="vertical"
+    android:background="@drawable/bunga"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Peaceful Funeral"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvDuka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="Bunga:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibDuka"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/duka"
+        android:scaleType="centerInside"
+       android:onClick="DukaActivity" />
+
+    <TextView
+        android:id="@+id/tvPeti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:text="Peti:"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/ibPeti"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/simbol_peti"
+        android:scaleType="centerInside"
+        android:onClick="PetiActivity" />
+
+    <TextView
+        android:id="@+id/tvGuci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:text="Guci:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibGuci"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/guci"
+        android:scaleType="centerInside"
+        android:onClick="GuciActivity" />
+
+
+
+</LinearLayout>
